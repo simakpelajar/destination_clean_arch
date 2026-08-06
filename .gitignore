@@ -1,0 +1,77 @@
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# IDE
+# ==========================
+.idea/
+*.iml
+.vscode/
+
+# ==========================
+# Flutter / Dart
+# ==========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+**/build/
+
+# Generated
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# ==========================
+# Android
+# ==========================
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Keystore (jangan di-commit)
+*.jks
+*.keystore
+key.properties
+
+# ==========================
+# iOS
+# ==========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# CocoaPods
+Podfile.lock
+
+# ==========================
+# macOS
+# ==========================
+macos/Pods/
+
+# ==========================
+# Linux / Windows Generated
+# ==========================
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# ==========================
+# Symbolication
+# ==========================
+app.*.symbols
+app.*.map.json
